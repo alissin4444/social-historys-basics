@@ -1,0 +1,28 @@
+{
+  "name": "social-historys-basic",
+  "version": "1.0.0",
+  "description": "O \"social-history-basic\" é um sistema que qualquer usuário logado pode visualizar, gostar, comentar e criar suas próprias histórias. Ao menos nessa primeira versão mais básica eu pretendo criar algo extremamente simples que me ajudará com o Sequelize e PostgreSQL. Caso eu acredite que é possível aproveitar bem esse sistema para meu desenvolvimento como programador, posso aprimorá-lo e adicionar novas versões com mais funcionálidades, parte gráfica e mais empenho. Espero que goste <3. Com amor: Alissin Santos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "Sequelize;",
+    "Javascript;",
+    "Node.js;",
+    "Express;",
+    "PostgreSQL"
+  ],
+  "author": "Alissin Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
